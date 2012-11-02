@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+
+require 'rubygems'
+require 'twitter'
+require 'twitter-console'
+require 'irb'
+
+include Twitter::Console
+
+start
