@@ -1,6 +1,5 @@
 require "twitter-console/version"
 
-
 module Twitter
   module Console
     class ClientProxy < Twitter::Client
