@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Twitter::Cli::VERSION
 
-  gem.add_dependency 'twitter', 'v4.5.0'
+  gem.add_dependency 'twitter', '4.5.0'
 end
